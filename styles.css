@@ -1,0 +1,29 @@
+/* Style for the Subscribe state */
+.Subscribe {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 19px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect should only apply when in the Subscribe state */
+.Subscribe:hover {
+    opacity: 0.6;
+}
+
+/* Style for the Subscribed state */
+.Subscribed {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 19px;
+    font-weight: bolder;
+    border-width: 1px;
+    border-style: solid;
+}
+.Subscribed:hover{
+    opacity: 1;
+}
